@@ -15,8 +15,14 @@ class FansController < ApplicationController
 
   def single
     @fan = Fan.find(params[:id])
-    @fan.has_downloaded = true
-    @fan.save
+
+    show! do |format|
+      format.mp3 {
+        @fan.has_downloaded = true
+        @fan.save
+        send_data '/public/images/rails.png'
+      }
+    end
   end
 
   private
