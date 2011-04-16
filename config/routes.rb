@@ -12,7 +12,12 @@ Delilahs::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
+  resources :fans do
+    collection do
+      get 'single'
+    end
+  end
+  root :to => 'fans#new'
   # Sample resource route with options:
   #   resources :products do
   #     member do

@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/alexdunae/validates_email_format_of.git
+  revision: 3067b9e3cd3fbe164fac7bb60df75c0d105ba57c
+  specs:
+    validates_email_format_of (1.4.5)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -77,6 +83,8 @@ GEM
     inherited_resources (1.2.1)
       has_scope (~> 0.5.0)
       responders (~> 0.6.0)
+    inherited_resources_views (0.4.1)
+      inherited_resources (>= 1.0)
     jquery-rails (0.2.7)
       rails (~> 3.0)
       thor (~> 0.14.4)
@@ -168,6 +176,7 @@ DEPENDENCIES
   hpricot
   i18n_rails_helpers (~> 0.9)
   inherited_resources
+  inherited_resources_views
   jquery-rails
   mocha
   rails (= 3.0.6)
@@ -177,4 +186,5 @@ DEPENDENCIES
   ruby_parser
   shoulda
   sqlite3-ruby
+  validates_email_format_of!
   webrat

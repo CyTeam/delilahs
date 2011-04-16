@@ -1,4 +1,7 @@
 de-CH:
+  validation:
+    error:
+      email: 'Bitte eine richtig E-Mail-Adresse eingeben.'
   html:
     head:
       title: Delilahs

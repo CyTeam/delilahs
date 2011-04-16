@@ -21,6 +21,9 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-ext'
   gem 'cap-recipes'
+
+  # inherited Resources View Generator
+  gem 'inherited_resources_views'
 end
 
 # Standard helpers
@@ -33,6 +36,7 @@ gem 'inherited_resources'
 gem 'has_scope'
 gem 'i18n_rails_helpers', '~> 0.9'
 gem 'jquery-rails'
+gem 'validates_email_format_of', :git => 'git://github.com/alexdunae/validates_email_format_of.git'
 
 # Test
 # ====
