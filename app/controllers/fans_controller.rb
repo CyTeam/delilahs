@@ -27,8 +27,8 @@ class FansController < ApplicationController
 
   private
   def signed_in?
-    fan = resource.class.find(params[:id])
-    redirect_to root_path if fan.has_downloaded?
+    fan = resource.class.find(params[:id]) if params[:id]
+    redirect_to root_path if !fan or fan.has_downloaded?
   end
 
 end

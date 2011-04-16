@@ -18,12 +18,12 @@
   <% resource.attributes.each_pair do |field, value| %>
     <% next if ['id', 'has_downloaded', 'created_at', 'updated_at'].include?(field) %>
     <tr>
-      <td><%= field.titleize %></td>
+      <td><%= t_attr field %></td>
       <td><%= f.text_field field.to_sym %></td>
     </tr>
   <% end %>
   <tr>
-    <td colspan="2"><%= f.submit %></td>
+    <td colspan="2"><%= f.submit t('here_single_download') %></td>
   </tr>
 <% end %>
 </table>
