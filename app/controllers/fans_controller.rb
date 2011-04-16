@@ -20,7 +20,7 @@ class FansController < ApplicationController
       format.mp3 {
         @fan.has_downloaded = true
         @fan.save
-        send_data '/public/images/rails.png'
+        send_data '/public/sound/Delilahs_Heroes-in-Heels.mp3'
       }
     end
   end
