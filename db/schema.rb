@@ -10,12 +10,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110416085020) do
+ActiveRecord::Schema.define(:version => 20110416095208) do
 
   create_table "fans", :force => true do |t|
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "has_downloaded"
   end
 
 end
