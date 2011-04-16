@@ -20,7 +20,8 @@ class FansController < ApplicationController
       format.mp3 {
         @fan.has_downloaded = true
         @fan.save
-        send_data '/public/sound/Delilahs_Heroes-in-Heels.mp3'
+        send_data '/public/sound/single.mp3',
+                  :filename => 'Delilahs_Heroes-in-Heels.mp3'
       }
     end
   end
