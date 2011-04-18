@@ -18,8 +18,13 @@
   <% resource.attributes.each_pair do |field, value| %>
     <% next if ['id', 'has_downloaded', 'created_at', 'updated_at'].include?(field) %>
     <tr>
-      <td><%= t_attr field %></td>
+      <td><%= t_attr :email_de %></td>
+    </tr>
+    <tr>
       <td><%= f.text_field field.to_sym %></td>
+    </tr>
+    <tr>
+      <td><%= t_attr :email_eng %></td>
     </tr>
   <% end %>
   <tr>

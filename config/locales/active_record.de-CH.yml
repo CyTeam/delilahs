@@ -2,4 +2,5 @@ de-CH:
   activerecord:
     attributes:
       fan:
-        email: "Gib uns deine Email-Adresse und du kannst unsere Single HEROES IN HEELS gratis herunterladen. Give us your email and get our new single HEROES IN HEELS for free.
+        email_de: "Gib uns deine Email-Adresse und du kannst unsere Single HEROES IN HEELS gratis herunterladen."
+        email_eng: "Give us your email and get our new single HEROES IN HEELS for free."
