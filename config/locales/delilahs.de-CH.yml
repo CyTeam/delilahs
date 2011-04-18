@@ -1,9 +1,11 @@
 de-CH:
+  delilahs: Delilahs
   validation:
     error:
       email: 'Bitte eine richtig E-Mail-Adresse eingeben.'
   html:
     head:
       title: Delilahs
-  here_single_download: Zum Song-Download'
-  download_single: Hier kannst du unsere Single downloaden.
+  here_single_download: Song-Download
+  download_single: Single download
+  website: 'Delilahs Website'

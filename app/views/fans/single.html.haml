@@ -1,2 +1,7 @@
+%h1#delilahs-logo
+  = t('delilahs')
+
 #single-download
   = link_to t('download_single'), single_fans_url(:format => :mp3, :id => @fan.id)
+
+  = link_to t('website'), 'http://delilahsmusic.com'
